@@ -1,0 +1,62 @@
+REACTION SAM Hydrolase::ADENOSYLMETHIONINE-HYDROLASE-RXN
+LEFT    S-adenosyl-L-methionine + H2O
+RIGHT    S-methyl-5-thioadenosine + L-homoserine
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY Ethylene synthesis
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION     MTA nucleosidase::METHYLTHIOADENOSINE-NUCLEOSIDASE-RXN
+LEFT    S-methyl-5-thioadenosine + phosphate
+RIGHT   adenine + S-methyl-5-thio-D-ribose-1-phosphate
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY methionine salvage
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION     MTNA::5.3.1.23-RXN
+LEFT	S-methyl-5-thio-D-ribose-1-phosphate
+RIGHT	5-methylsulfanyl-ribulose-1-phosphate
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY S-methyl-5-thio-α-D-ribose 1-phosphate degradation I,II
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION MT-Ribulose lyase::MT-Ribulose lyase
+LEFT    5-methylsulfanyl-ribulose-1-phosphate
+RIGHT   S-Methyl-thioacetate + glycerone_phosphate
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY S-methyl-5-thio-α-D-ribose 1-phosphate degradation I,II
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION MT-acetate reductase::MT-acetate reductase
+LEFT    S-Methyl-thioacetate + NADH
+RIGHT   2-Methylthioethanol + NAD+
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY ethylene pwy
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION MT-ethanol dehydrogenase::MT-ethanol dehydrogenase
+LEFT    2-Methylthioethanol + Fd_red
+RIGHT  ethylene + H2O + H2 + methanethiol + Fd_ox
+DGZERO-UNITS    KJ/MOL
+ENZYME_LEVEL    1.0
+PATHWAY ethylene pwy
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//
+REACTION O-ACETYLHOMOSERINE-THIOL-LYASE::O-ACETYLHOMOSERINE-THIOL-LYASE-RXN
+LEFT	O-acetyl-L-homoserine + methanethiol 
+RIGHT	L-methionine + acetate
+ENZYME_LEVEL    1.0
+PATHWAY ethylene pwy
+LEFT_COMPARTMENT CYTOPLASM
+RIGHT_COMPARTMENT CYTOPLASM
+//

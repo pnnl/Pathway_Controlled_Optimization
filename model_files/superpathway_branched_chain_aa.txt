@@ -1,0 +1,17 @@
+DIHYDROXYISOVALDEHYDRAT-RXN	(2R)-2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate + H2O	L-valine biosynthesis
+ACETOLACTREDUCTOISOM-RXN	(2R)-2,3-dihydroxy-3-methylbutanoate + NADP+ = (S)-2-acetolactate + NADPH	L-valine biosynthesis
+RXN-8991	(2R,3S)-3-isopropylmalate = 2-isopropylmaleate + H2O	L-leucine biosynthesis
+3-ISOPROPYLMALDEHYDROG-RXN	(2R,3S)-3-isopropylmalate + NAD+ = (2S)-2-isopropyl-3-oxosuccinate + NADH 	L-leucine biosynthesis
+RXN-7800	(2S)-2-isopropyl-3-oxosuccinate  = 4-methyl-2-oxopentanoate + CO2	L-leucine biosynthesis
+RXN-15121	2-aminobut-2-enoate = 2-iminobutanoate	L-methionine degradation II L-isoleucine biosynthesis I (from threonine)
+DIHYDROXYMETVALDEHYDRAT-RXN	(R)-2,3-dihydroxy-3-methylpentanoate = (S)-3-methyl-2-oxopentanoate + H2O	L-isoleucine biosynthesis I (from threonine)
+ACETOOHBUTREDUCTOISOM-RXN	(R)-2,3-dihydroxy-3-methylpentanoate + NADP+ = (S)-2-aceto-2-hydroxybutanoate + NADPH 	L-isoleucine biosynthesis I (from threonine)
+ACETOLACTSYN-RXN	2 pyruvate = (S)-2-acetolactate + CO2	L-valine biosynthesis
+RXN-15123	2-iminobutanoate + H2O = 2-oxobutanoate + NH3	L-methionine degradation II L-isoleucine biosynthesis I (from threonine)
+3-ISOPROPYLMALISOM-RXN	2-isopropylmaleate + H2O = (2S)-2-isopropylmalate	L-leucine biosynthesis
+2-ISOPROPYLMALATESYN-RXN	3-methyl-2-oxobutanoate + acetyl-CoA + H2O = (2S)-2-isopropylmalate + coenzyme A 	L-leucine biosynthesis
+BRANCHED-CHAINAMINOTRANSFERILEU-RXN	L-isoleucine + 2-oxoglutarate = L-glutamate + (S)-3-methyl-2-oxopentanoate	L-isoleucine biosynthesis I (from threonine) L-isoleucine degradation I
+BRANCHED-CHAINAMINOTRANSFERLEU-RXN	L-leucine + 2-oxoglutarate = L-glutamate + 4-methyl-2-oxopentanoate	L-leucine degradation I L-leucine biosynthesis
+RXN-15122	L-threonine = 2-aminobut-2-enoate + H2O 	L-isoleucine biosynthesis I (from threonine)
+BRANCHED-CHAINAMINOTRANSFERVAL-RXN	L-valine + 2-oxoglutarate = L-glutamate + 3-methyl-2-oxobutanoate	L-valine biosynthesis L-valine degradation I
+ACETOOHBUTSYN-RXN	pyruvate + 2-oxobutanoate = (S)-2-aceto-2-hydroxybutanoate + CO2	L-isoleucine biosynthesis I (from threonine)

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SBML generated on 23-Mar-2021  16:25:11 for organism GCF_000013085 (version 24.1) using MetaFlux (Pathway Tools version 24.0). -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1" fbc:required="false">
+  <model metaid="GCF_000013085" id="GCF_000013085"
+   name=
+     "Generated from the BioCyc Pathway/Genome Database Rhodospirillum rubrum ATCC 11170"
+   fbc:strict="false">
+    <listOfCompartments>
+      <compartment metaid="c" id="c"
+       name="CCO-CYTOSOL" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="CARBON__45__DIOXIDE_c"
+       id="CARBON__45__DIOXIDE_c" name="CO2" compartment="c"
+       fbc:charge="0"
+       fbc:chemicalFormula=
+         "CO2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#CARBON__45__DIOXIDE_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:CARBON-DIOXIDE"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:16526"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/274"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/124-38-9"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB01967"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/280"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/umbbd.compound/c0131"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00011"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC16526"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="MAL_c" id="MAL_c" name="(S)-malate"
+       compartment="c" fbc:charge="-2"
+       fbc:chemicalFormula=
+         "C4H4O5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#MAL_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:MAL"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/BJEPYKJPYRNKOW-REOHCLBHSA-L"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:15589"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/4573566"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/6915-15-7"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00156"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/5459792"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00149"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC15589"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="NAD_c" id="NAD_c" name="NAD+" compartment="c"
+       fbc:charge="-1"
+       fbc:chemicalFormula=
+         "C21H26N7O14P2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#NAD_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:NAD"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/BAWFJGJZGIEFAR-NNYOXOHSSA-M"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:57540"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/10239196"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/53-84-9"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00902"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/15938971"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00003"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC57540"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="NADH_c" id="NADH_c" name="NADH" compartment="c"
+       fbc:charge="-2"
+       fbc:chemicalFormula=
+         "C21H27N7O14P2" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#NADH_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:NADH"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/BOPGDPNILDQYTO-NNYOXOHSSA-L"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:57945"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/10239197"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/58-68-4"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB01487"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/21604869"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00004"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC57945"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="NADP_c" id="NADP_c" name="NADP+" compartment="c"
+       fbc:charge="-3"
+       fbc:chemicalFormula=
+         "C21H25N7O17P3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#NADP_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:NADP"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-K"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:58349"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/10239198"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/53-59-8"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00217"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/15938972"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00006"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC58349"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="NADPH_c" id="NADPH_c" name="NADPH"
+       compartment="c" fbc:charge="-4"
+       fbc:chemicalFormula=
+         "C21H26N7O17P3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#NADPH_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:NADPH"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-J"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:57783"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/10239199"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/2646-71-1"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00221"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/15983949"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00005"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC57783"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="OXALACETIC_ACID_c" id="OXALACETIC_ACID_c"
+       name="oxaloacetate" compartment="c" fbc:charge="-2"
+       fbc:chemicalFormula=
+         "C4H2O5" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#OXALACETIC_ACID_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:OXALACETIC_ACID"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/KHPXUQMNIQBQEV-UHFFFAOYSA-L"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:16452"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/144251"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/328-42-7"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00223"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/164550"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00036"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC16452"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="PROTON_c" id="PROTON_c" name="H+"
+       compartment="c" fbc:charge="1"
+       fbc:chemicalFormula=
+         "H" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#PROTON_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:PROTON"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:15378"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/1010"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/cas/12408-02-5"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB59597"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/1038"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00080"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="PYRUVATE_c" id="PYRUVATE_c" name="pyruvate"
+       compartment="c" fbc:charge="-1"
+       fbc:chemicalFormula=
+         "C3H3O3" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#PYRUVATE_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:PYRUVATE"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chebi/CHEBI:15361"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/chemspider/96901"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/cas/127-17-3"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/hmdb/HMDB00243"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/pubchem.compound/107735"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/umbbd.compound/c0159"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.compound/C00022"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/metabolights/MTBLC15361"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/knapsack/C00001200"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasProperty>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/sbo/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:hasProperty>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction metaid="MALATE__45__DEH__45__RXN"
+       id="MALATE__45__DEH__45__RXN" name="MALATE-DEH-RXN"
+       reversible="true" fast="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#MALATE__45__DEH__45__RXN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:MALATE-DEH-RXN"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ec-code/1.1.1.37"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/rhea/21435"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.reaction/R00342"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RRU__95__A1210"/>
+        </fbc:geneProductAssociation>
+        <listOfReactants>
+          <speciesReference species="MAL_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="NAD_c"
+           stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="OXALACETIC_ACID_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="NADH_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="PROTON_c"
+           stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction
+       metaid="MALATE__45__DEHYDROGENASE__45__NADP__43____45__RXN"
+       id="MALATE__45__DEHYDROGENASE__45__NADP__43____45__RXN"
+       name="MALATE-DEHYDROGENASE-NADP+-RXN"
+       reversible="true" fast="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description
+             rdf:about=
+               "#MALATE__45__DEHYDROGENASE__45__NADP__43____45__RXN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:MALATE-DEHYDROGENASE-NADP+-RXN"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ec-code/1.1.1.82"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.reaction/R00343"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_RRU__95__A3542"/>
+        </fbc:geneProductAssociation>
+        <listOfReactants>
+          <speciesReference species="MAL_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="NADP_c"
+           stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PROTON_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="NADPH_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="OXALACETIC_ACID_c"
+           stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="OXALODECARB__45__RXN" id="OXALODECARB__45__RXN"
+       name="OXALODECARB-RXN" reversible="false" fast="false">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#OXALODECARB__45__RXN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:OXALODECARB-RXN"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ec-code/4.1.1.112"/>
+                  <rdf:li
+                   rdf:resource="http://identifiers.org/rhea/15642"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/kegg.reaction/R00217"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_RRU__95__A1320"/>
+            <fbc:geneProductRef fbc:geneProduct="G_RRU__95__A3542"/>
+          </fbc:or>
+        </fbc:geneProductAssociation>
+        <listOfReactants>
+          <speciesReference species="OXALACETIC_ACID_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="PROTON_c"
+           stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PYRUVATE_c"
+           stoichiometry="1" constant="true"/>
+          <speciesReference species="CARBON__45__DIOXIDE_c"
+           stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfGeneProducts>
+      <fbc:geneProduct metaid="G_RRU__95__A1320"
+       fbc:id="G_RRU__95__A1320" fbc:label="RRU_A1320">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_RRU__95__A1320">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/uniprot/Q2RUS4"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:RRU_A1320"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ncbigene/3834735"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_RRU__95__A3542"
+       fbc:id="G_RRU__95__A3542" fbc:label="RRU_A3542">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_RRU__95__A3542">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/uniprot/Q2RNF9"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:RRU_A3542"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ncbigene/3836997"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="G_RRU__95__A1210"
+       fbc:id="G_RRU__95__A1210" fbc:label="RRU_A1210">
+        <annotation>
+          <rdf:RDF
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#G_RRU__95__A1210">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/uniprot/Q2RV34"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isEncodedBy>
+                <rdf:Bag>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/biocyc/GCF_000013085:RRU_A1210"/>
+                  <rdf:li
+                   rdf:resource=
+                     "http://identifiers.org/ncbigene/3833708"/>
+                </rdf:Bag>
+              </bqbiol:isEncodedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </fbc:geneProduct>
+    </fbc:listOfGeneProducts>
+  </model>
+</sbml>

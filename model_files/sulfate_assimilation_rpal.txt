@@ -1,0 +1,5 @@
+SULFATE-ADENYLYLTRANS-RXN	sulfate + ATP + H+  =  adenosine-5'-phosphosulfate + diphosphate	
+ADENYLYLSULFKIN-RXN	adenosine-5'-phosphosulfate + ATP  =  3'-phosphoadenylyl-sulfate + ADP + H+	
+1.8.4.8-RXN	3'-phosphoadenylyl-sulfate + a reduced thioredoxin = adenosine-3',5'-bisphosphate + sulfite + an oxidized thioredoxin + 2 H+ 	
+SULFITE-REDUCT-RXN	H2S + 3 NADP+ + 3 H2O  =  sulfite + 3 NADPH + 5 H+	
+325-BISPHOSPHATE-NUCLEOTIDASE-RXN	H2O + adenosine-3',5'-bisphosphate = AMP + phosphate	

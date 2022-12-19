@@ -1,0 +1,2 @@
+RXN-10814	L-phenylalanine + 2-oxoglutarate  =  3-phenyl-2-oxopropanoate + L-glutamate	
+PREPHENATEDEHYDRAT-RXN	prephenate + H+ =  3-phenyl-2-oxopropanoate + CO2 + H2O	

@@ -1,0 +1,2 @@
+ASNSYNA-RXN	ATP + L-aspartate + ammonium  =  AMP + L-asparagine + diphosphate + H+	
+ASNSYNB-RXN	L-glutamine + L-aspartate + ATP + H2O  =  L-glutamate + L-asparagine + AMP + diphosphate + H+	

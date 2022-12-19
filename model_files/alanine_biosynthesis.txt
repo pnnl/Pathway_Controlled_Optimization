@@ -1,0 +1,10 @@
+#3-HYDROXYPROPIONATE-DEHYDROGENASE-RXN	3-hydroxypropanoate + NAD+  =  3-oxopropanoate + NADH + H+	&beta;-alanine biosynthesis II
+#RXN-6383	3-hydroxypropanoyl-CoA  =  acryloyl-CoA + H2O	&beta;-alanine biosynthesis II
+#RXN-6384	3-hydroxypropanoyl-CoA + H2O  =  3-hydroxypropanoate + coenzyme A + H+	&beta;-alanine biosynthesis II
+#RXN-2902	3-oxopropanoate + coenzyme A + NAD+  =  acetyl-CoA + CO2 + NADH	&beta;-alanine degradation II
+#2.6.1.18-RXN	3-oxopropanoate + L-alanine  =  beta-alanine + pyruvate	&beta;-alanine degradation II // &beta;-alanine biosynthesis II
+ALANINE-DEHYDROGENASE-RXN	L-alanine + NAD+ + H2O  =  ammonium + pyruvate + NADH + H+	L-alanine degradation IV
+#ASPDECARBOX-RXN	L-aspartate + H+  =  beta-alanine + CO2	&beta;-alanine biosynthesis III
+#RXN0-308	L-cysteine + an [L-cysteine desulfurase]-L-cysteine  =  L-alanine + an [L-cysteine desulfurase]-S-sulfanyl-L-cysteine	L-alanine biosynthesis III
+#PROPIONATE--COA-LIGASE-RXN	propanoate + ATP + coenzyme A  =  propanoyl-CoA + AMP + diphosphate	&beta;-alanine biosynthesis II
+#PROPCOASYN-RXN	propanoyl-CoA + an oxidized electron-transfer flavoprotein + H+  =  acryloyl-CoA + a reduced electron-transfer flavoprotein	&beta;-alanine biosynthesis II
