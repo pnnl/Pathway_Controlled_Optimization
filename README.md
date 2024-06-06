@@ -4,7 +4,7 @@
 
  This repo contains code to reproduce the results in the paper: An Approach to Learn Regulation to Maximize Growth and Entropy Production Rates in Metabolism
 
- (paper link)
+ https://www.frontiersin.org/articles/10.3389/fsysb.2023.981866/full
 
 
 
